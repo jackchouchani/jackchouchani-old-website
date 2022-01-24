@@ -86,14 +86,14 @@
                         <img src="assets/img/perfil.png" alt="" class="home__img">
                     </div>
                     <div class=-home_social>
-                        <a href="https://www.linkedin.com" class="home social-link">
+                        <a href="https://www.linkedin.com" target="_blank" class="home social-link">
                             <i class='bx bxl-linkedin-square'></i>
                         </a>
-                        <a href="https://www.github.com" class="home social-link">
+                        <a href="https://www.github.com" target="_blank" class="home social-link">
                             <i class='bx bxl-github'></i>
                         </a>
 
-                        <a href="https://www.meta.com" class="home ¡_social-link">
+                        <a href="https://www.meta.com" target="_blank" class="home ¡_social-link">
                             <i class='bx bxl-meta'></i>
                         </a>
                 </div>
@@ -445,13 +445,81 @@
 
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
-                
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class="bx bx-mail-send contact__card-icon"></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">mail@jack.sbs</span>
+
+                                <a href="mailto:mail@jack.sbs" target="_blank" class="contact__button">
+                                    Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write me your project</h3>
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Names</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                            </div>
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="text" placeholder="Insert your email" class="contact__form-input">
+                            </div>
+                            <div class="contact__form-div contact_form-area">
+                                <label for="" class="contact__form-tag">Project</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                            </div> 
+                            <button class="button">Send message</button>
+                        </form>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h1 class="footer__title">Jack</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class=" footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#testimonial" class="footer__link">Testimonial</a>
+                    </li>
+                </ul>
+                
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                        <i class= 'bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Jack Chouchani. All rigths reserved target="_blank"
+                </span>
+            </div>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
