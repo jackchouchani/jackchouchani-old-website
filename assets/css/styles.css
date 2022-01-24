@@ -13,12 +13,12 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 250;
-  --sat: 66%;
-  --lig: 75%;
+  --first-hue: 207;
+  --sat: 90%;
+  --lig: 72%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%);
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 68%);
   /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
@@ -1083,33 +1083,40 @@ body.light-theme {
     grid-template-columns: repeat(3, 192px);
     column-gap: 3rem;
   }
+
   .services__card {
     padding: 5rem 2rem 1.5rem;
   }
-  .work__container{
+
+  .work__container {
     gap: 3rem;
   }
-  .work__card{
+
+  .work__card {
     padding: 1.25rem;
   }
-  .work__img{
+
+  .work__img {
     margin-bottom: 1rem;
   }
-  .work__title{
+
+  .work__title {
     margin-bottom: .5rem;
   }
-  .testimonial__container{
+
+  .testimonial__container {
     width: 750px;
   }
-  .testimonial__card{
+
+  .testimonial__card {
     padding: 1.5rem 2rem;
   }
 
-  .contact__container{
+  .contact__container {
     column-gap: 6rem;
   }
 
-  .footer__social-link{
+  .footer__social-link {
     font-size: 1.25rem;
     padding: .4rem;
     border-radius: .5rem;
