@@ -56,7 +56,7 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
             el: ".swiper-pagination",
             clickable: true,
         },
-        },
+    })
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
