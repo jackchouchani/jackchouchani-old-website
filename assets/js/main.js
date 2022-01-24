@@ -89,9 +89,9 @@ function scrollActive() {
     })
 }
 
-    window.addEventListener('scroll', scrollActive)
+window.addEventListener('scroll', scrollActive)
 
-    /*=============== LIGHT DARK THEME ===============*/
+/*=============== LIGHT DARK THEME ===============*/
 const themeButton = document.getElementById('theme-button')
 const lightTheme = 'light-theme'
 const iconTheme = 'bx-sun'
@@ -121,4 +121,15 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-    /*=============== SCROLL REVEAL ANIMATION ===============*/
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true,
+})
+
+sr.reveal(`.home__data`)
+sr.reveal(`.home__handle`, {delay: 700})
+sr.reveal(`.home__social, .home_scroll`, {delay: 700, origin: 'bottom'})
