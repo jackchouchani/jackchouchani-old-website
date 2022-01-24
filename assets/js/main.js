@@ -56,6 +56,16 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
             el: ".swiper-pagination",
             clickable: true,
         },
+        breakpoints: {
+            576: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 48,
+            },
+
+        }
     })
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
