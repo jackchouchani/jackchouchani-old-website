@@ -16,7 +16,7 @@ let modal = function(modalClick){
     modalViews[modalClick].classList.add('active-modal')
 }
 
-modalBtns.foreach((mb, i) =>{
+modalBtns.forEach((mb, i) =>{
     mb.addEventListener('click', () =>{
         modal(i)
     })
