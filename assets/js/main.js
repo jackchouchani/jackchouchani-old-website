@@ -38,10 +38,25 @@ let mixerPortfolio = mixitup('.work__container', {
     }
 });
 /* Link active work */ 
+const linkWork = document.querySelectorAll('.work__item')
 
 
+function activeWork(){
+    linkWork.forEach(l => l.classList.remove('active-work'))
+    this.classList.add('active-work')
+}
+
+linkWork.forEach(l => l.addEventListener('click', activeWork))
 /*=============== SWIPER TESTIMONIAL ===============*/
-
+var swiperTestimonial = new Swiper(".testimonial__container", {
+        spaceBetween: 24,
+        loop: true,
+        grabCursor: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        },
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
